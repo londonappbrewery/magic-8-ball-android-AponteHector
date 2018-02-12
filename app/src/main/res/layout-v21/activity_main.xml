@@ -12,7 +12,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".MainActivity" tools:targetApi="lollipop">
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button"
@@ -43,5 +43,5 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/ball1" />
+        android:src="@drawable/ball1" android:contentDescription="TODO"/>
 </RelativeLayout>
